@@ -170,3 +170,65 @@ new Chart("iuranbpu", {
     },
   },
 });
+
+var aktifJakon = document.getElementById("aktifjakon");
+new Chart("aktifjakon", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [45544, 45544, 45544, 45544, 45544, 45544],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [24942, 24421, 28020, 26936, 27235, 28114],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "TK Aktif Jakon",
+    },
+  },
+});
+
+var iuranJakon = document.getElementById("iuranjakon");
+new Chart("iuranjakon", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [0.15, 0.31, 0.47, 0.62, 0.78, 0.94],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [0.23, 0.43, 0.74, 0.86, 1.06, 1.41],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "Iuran Jakon",
+    },
+  },
+});
