@@ -62,7 +62,7 @@ new Chart("aktifpu", {
       },
       {
         label: "Realisasi",
-        data: [197055, 198563, 199384, 200635, 200234, 201767],
+        data: [197055, 198563, 199384, 200635, 200234, 201767, 201622],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -93,7 +93,7 @@ new Chart("aktifbpu", {
       },
       {
         label: "Realisasi",
-        data: [140526, 144931, 148916, 151141, 149866, 151818],
+        data: [140526, 144931, 148916, 151141, 149866, 151818, 136679],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -117,14 +117,14 @@ new Chart("iuranpu", {
     datasets: [
       {
         label: "Target",
-        data: [83.3, 166.6, 250, 333.3, 416.7, 500],
+        data: [83.3, 166.6, 250, 333.3, 416.7, 500, 583, 4],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [66.6, 148.9, 234, 315, 405.8, 490.1],
+        data: [66.6, 148.9, 234, 315, 405.8, 490.1, 490.2],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -148,14 +148,14 @@ new Chart("iuranbpu", {
     datasets: [
       {
         label: "Target",
-        data: [1.1, 2.3, 3.5, 4.6, 5.8, 7.0],
+        data: [1.1, 2.3, 3.5, 4.6, 5.8, 7.0, 8.1],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [1.3, 2.5, 4.0, 5.3, 6.1, 7.1],
+        data: [1.3, 2.5, 4.0, 5.3, 6.1, 7.1, 7.1],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -179,14 +179,14 @@ new Chart("aktifjakon", {
     datasets: [
       {
         label: "Target",
-        data: [45544, 45544, 45544, 45544, 45544, 45544],
+        data: [45544, 45544, 45544, 45544, 45544, 45544, 45544],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [24942, 24421, 28020, 26936, 27235, 28114],
+        data: [24942, 24421, 28020, 26936, 27235, 28114, 28210],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -210,14 +210,14 @@ new Chart("iuranjakon", {
     datasets: [
       {
         label: "Target",
-        data: [0.15, 0.31, 0.47, 0.62, 0.78, 0.94],
+        data: [0.15, 0.31, 0.47, 0.62, 0.78, 0.94, 1.09],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [0.23, 0.43, 0.74, 0.86, 1.06, 1.41],
+        data: [0.23, 0.43, 0.74, 0.86, 1.06, 1.41, 1.41],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -241,14 +241,14 @@ new Chart("barupu", {
     datasets: [
       {
         label: "Target",
-        data: [7174, 14348, 21522, 28696, 35870, 43044],
+        data: [7174, 14348, 21522, 28696, 35870, 43044, 50218],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [4595, 12141, 17816, 22094, 28096, 34498],
+        data: [4595, 12141, 17816, 22094, 28096, 34498, 34501],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -272,14 +272,14 @@ new Chart("barubpu", {
     datasets: [
       {
         label: "Target",
-        data: [23273, 46546, 69818, 93091, 116364, 139637],
+        data: [23273, 46546, 69818, 93091, 116364, 139637, 162909],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [24224, 50908, 78684, 101528, 114552, 134157],
+        data: [24224, 50908, 78684, 101528, 114552, 134157, 134162],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -303,14 +303,14 @@ new Chart("barujakon", {
     datasets: [
       {
         label: "Target",
-        data: [2544, 5088, 7632, 10176, 12720, 15264],
+        data: [2544, 5088, 7632, 10176, 12720, 15264, 17808],
         backgroundColor: ["rgba(105, 0, 132, .2)"],
         borderColor: ["rgba(200, 99, 132, .7)"],
         borderWidth: 2,
       },
       {
         label: "Realisasi",
-        data: [867, 1623, 6454, 7738, 8804, 12763],
+        data: [867, 1623, 6454, 7738, 8804, 12763, 12888],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -334,7 +334,7 @@ new Chart("itwpu", {
     datasets: [
       {
         label: "Realisasi",
-        data: [90.67, 67.03, 67.59, 82.75, 83.14, 85.81],
+        data: [90.67, 67.03, 67.59, 82.75, 83.14, 85.81, 63.23],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -358,7 +358,7 @@ new Chart("itwbpu", {
     datasets: [
       {
         label: "Realisasi",
-        data: [55.28, 59.36, 64.48, 68.61, 58.55, 54.7],
+        data: [55.28, 59.36, 64.48, 68.61, 58.55, 54.7, 41.34],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
