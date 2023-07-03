@@ -321,7 +321,7 @@ new Chart("barujakon", {
     responsive: true,
     title: {
       display: true,
-      text: "Tk BaruJakon",
+      text: "Tk Baru Jakon",
     },
   },
 });
