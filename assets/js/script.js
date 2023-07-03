@@ -232,3 +232,96 @@ new Chart("iuranjakon", {
     },
   },
 });
+
+var baruPu = document.getElementById("barupu");
+new Chart("barupu", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [7174, 14348, 21522, 28696, 35870, 43044],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [4595, 12141, 17816, 22094, 28096, 34498],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "Tk Baru PU",
+    },
+  },
+});
+
+var baruBpu = document.getElementById("barubpu");
+new Chart("barubpu", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [23273, 46546, 69818, 93091, 116364, 139637],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [24224, 50908, 78684, 101528, 114552, 134157],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "Tk Baru BPU",
+    },
+  },
+});
+
+var baruJakon = document.getElementById("barujakon");
+new Chart("barujakon", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [2544, 5088, 7632, 10176, 12720, 15264],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [867, 1623, 6454, 7738, 8804, 12763],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "Tk Baru Jakon",
+    },
+  },
+});
