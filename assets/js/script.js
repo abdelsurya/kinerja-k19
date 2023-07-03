@@ -31,7 +31,7 @@ new Chart("kpijuli", {
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04],
+        data: [66.64, 66.64],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -322,6 +322,54 @@ new Chart("barujakon", {
     title: {
       display: true,
       text: "Tk Baru Jakon",
+    },
+  },
+});
+
+var itwPu = document.getElementById("itwpu");
+new Chart("itwpu", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Realisasi",
+        data: [90.67, 67.03, 67.59, 82.75, 83.14, 85.81],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "ITW PU",
+    },
+  },
+});
+
+var itwBpu = document.getElementById("itwbpu");
+new Chart("itwbpu", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Realisasi",
+        data: [55.28, 59.36, 64.48, 68.61, 58.55, 54.7],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "ITW BPU",
     },
   },
 });
