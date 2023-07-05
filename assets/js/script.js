@@ -31,7 +31,7 @@ new Chart("kpijuli", {
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04, 57.04, 56.82],
+        data: [57.04, 57.04, 56.82, 66.8],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
