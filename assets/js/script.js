@@ -1,4 +1,7 @@
 //line
+const date = new Date(document.lastModified);
+document.querySelector(".update").innerHTML = date;
+
 var kpiJuni = document.getElementById("kpijuni");
 new Chart("kpijuni", {
   type: "line",
