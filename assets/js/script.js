@@ -1,5 +1,5 @@
 //line
-const date = new Date(document.lastModified);
+const date = new Date(document.lastModified).toISOString().substr(11, 8);
 document.querySelector(".update").innerHTML = date;
 
 var kpiJuni = document.getElementById("kpijuni");
