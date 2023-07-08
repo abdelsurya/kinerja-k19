@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-08T19:49:40");
+const text = time("2023-07-08T20:51:00");
 document.querySelector(".update").innerHTML = text;
 
 var kpiJuni = document.getElementById("kpijuni");
