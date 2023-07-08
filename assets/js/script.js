@@ -1,4 +1,4 @@
-function time_ago(time) {
+function time(time) {
   switch (typeof time) {
     case "number":
       break;
@@ -52,7 +52,7 @@ function time_ago(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time_ago("2023-07-07T23:30:00");
+const text = time("2023-07-07T23:30:00");
 document.querySelector(".update").innerHTML = text;
 
 var kpiJuni = document.getElementById("kpijuni");
