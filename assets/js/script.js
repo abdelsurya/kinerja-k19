@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-07T23:30:00");
+const text = time("2023-07-08T19:49:40");
 document.querySelector(".update").innerHTML = text;
 
 var kpiJuni = document.getElementById("kpijuni");
@@ -87,7 +87,7 @@ new Chart("kpijuli", {
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59],
+        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
