@@ -103,6 +103,42 @@ new Chart("kpijuli", {
   },
 });
 
+var peringkatJuli = document.getElementById("peringkatjuli");
+new Chart("peringkatjuli", {
+  type: "line",
+  data: {
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "08-07", "09-07", "10-07"],
+    datasets: [
+      {
+        label: "Realisasi",
+        data: [6, 6, 6, 6, 6, 7, 7],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: true,
+      text: "Konsolidasi Harian",
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            reverse: true,
+            beginAtZero: false,
+            max: 1,
+            min: 10,
+          },
+        },
+      ],
+    },
+  },
+});
+
 var aktifPu = document.getElementById("aktifpu");
 new Chart("aktifpu", {
   type: "line",
