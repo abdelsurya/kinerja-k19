@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-08T20:51:00");
+const text = time("2023-07-10T14:02:00");
 document.querySelector(".update").innerHTML = text;
 
 var kpiJuni = document.getElementById("kpijuni");
@@ -83,11 +83,11 @@ var kpiJuli = document.getElementById("kpijuli");
 new Chart("kpijuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "08-07", "09-07", "10-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28],
+        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28, 69.7],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -107,11 +107,11 @@ var peringkatJuli = document.getElementById("peringkatjuli");
 new Chart("peringkatjuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "08-07", "09-07", "10-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [6, 6, 6, 6, 6, 7, 7],
+        data: [6, 6, 6, 6, 6, 7, 7, 7],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
