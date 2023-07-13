@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-10T14:02:00");
+const text = time("2023-07-13T17:55:00");
 document.querySelector(".update").innerHTML = text;
 
 var kpiJuni = document.getElementById("kpijuni");
@@ -83,11 +83,11 @@ var kpiJuli = document.getElementById("kpijuli");
 new Chart("kpijuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28, 69.7],
+        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28, 69.7, 62.5, 68.98, 70.39],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -107,11 +107,11 @@ var peringkatJuli = document.getElementById("peringkatjuli");
 new Chart("peringkatjuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [6, 6, 6, 6, 6, 7, 7, 7],
+        data: [6, 6, 6, 6, 6, 7, 7, 7, 8, 7, 7],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -154,7 +154,7 @@ new Chart("aktifpu", {
       },
       {
         label: "Realisasi",
-        data: [197055, 198563, 199384, 200635, 200234, 201767, 200605],
+        data: [197055, 198563, 199384, 200635, 200234, 201767, 201238],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -185,7 +185,7 @@ new Chart("aktifbpu", {
       },
       {
         label: "Realisasi",
-        data: [140526, 144931, 148916, 151141, 149866, 151818, 143198],
+        data: [140526, 144931, 148916, 151141, 149866, 151818, 151161],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -216,7 +216,7 @@ new Chart("iuranpu", {
       },
       {
         label: "Realisasi",
-        data: [66.6, 148.9, 234, 315, 405.8, 490.1, 513.5],
+        data: [66.6, 148.9, 234, 315, 405.8, 490.1, 540.8],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -247,7 +247,7 @@ new Chart("iuranbpu", {
       },
       {
         label: "Realisasi",
-        data: [1.3, 2.5, 4.0, 5.3, 6.1, 7.1, 7.6],
+        data: [1.3, 2.5, 4.0, 5.3, 6.1, 7.1, 7.9],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -278,7 +278,7 @@ new Chart("aktifjakon", {
       },
       {
         label: "Realisasi",
-        data: [24942, 24421, 28020, 26936, 27235, 28114, 28457],
+        data: [24942, 24421, 28020, 26936, 27235, 28114, 28804],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -309,7 +309,7 @@ new Chart("iuranjakon", {
       },
       {
         label: "Realisasi",
-        data: [0.23, 0.43, 0.74, 0.86, 1.06, 1.41, 1.53],
+        data: [0.23, 0.43, 0.74, 0.86, 1.06, 1.41, 1.6],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -340,7 +340,7 @@ new Chart("barupu", {
       },
       {
         label: "Realisasi",
-        data: [4595, 12141, 17816, 22094, 28096, 34498, 36138],
+        data: [4595, 12141, 17816, 22094, 28096, 34498, 37333],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -371,7 +371,7 @@ new Chart("barubpu", {
       },
       {
         label: "Realisasi",
-        data: [24224, 50908, 78684, 101528, 114552, 134157, 140683],
+        data: [24224, 50908, 78684, 101528, 114552, 134157, 148648],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -402,7 +402,7 @@ new Chart("barujakon", {
       },
       {
         label: "Realisasi",
-        data: [867, 1623, 6454, 7738, 8804, 12763, 13106],
+        data: [867, 1623, 6454, 7738, 8804, 12763, 13453],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -426,7 +426,7 @@ new Chart("itwpu", {
     datasets: [
       {
         label: "Realisasi",
-        data: [90.67, 67.03, 67.59, 82.75, 83.14, 85.81, 73.18],
+        data: [90.67, 67.03, 67.59, 82.75, 83.14, 85.81, 79.57],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -450,7 +450,7 @@ new Chart("itwbpu", {
     datasets: [
       {
         label: "Realisasi",
-        data: [55.28, 59.36, 64.48, 68.61, 58.55, 54.7, 44.17],
+        data: [55.28, 59.36, 64.48, 68.61, 58.55, 54.7, 47.15],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
