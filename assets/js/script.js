@@ -55,6 +55,37 @@ var aDay = 24 * 60 * 60 * 1000;
 const text = time("2023-07-13T17:55:00");
 document.querySelector(".update").innerHTML = text;
 
+var outcomeBulan = document.getElementById("outcomebulan");
+new Chart("outcomebulan", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [42, 42, 42, 42, 42, 42, 42],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [21.48, 22.34, 23.57, 23.75, 23.19, 22.66, 22.36],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: false,
+      text: "Outcome 2023",
+    },
+  },
+});
+
 var kpiJuni = document.getElementById("kpijuni");
 new Chart("kpijuni", {
   type: "line",
