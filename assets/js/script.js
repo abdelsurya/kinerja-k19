@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-13T17:55:00");
+const text = time("2023-07-18T13:15:00");
 document.querySelector(".update").innerHTML = text;
 
 var outcomeBulan = document.getElementById("outcomebulan");
@@ -70,7 +70,7 @@ new Chart("outcomebulan", {
       },
       {
         label: "Realisasi",
-        data: [21.48, 22.34, 23.57, 23.75, 23.19, 22.66, 22.36],
+        data: [21.48, 22.34, 23.57, 23.75, 23.19, 22.66, 22.81],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -82,6 +82,99 @@ new Chart("outcomebulan", {
     title: {
       display: false,
       text: "Outcome 2023",
+    },
+  },
+});
+
+var driverBulan = document.getElementById("driverbulan");
+new Chart("driverbulan", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [52, 52, 52, 52, 52, 52, 52],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [35.7, 39.47, 40.82, 42.07, 47.14, 47.7, 46.57],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: false,
+      text: "Driver 2023",
+    },
+  },
+});
+
+var resourcesBulan = document.getElementById("resourcesbulan");
+new Chart("resourcesbulan", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [6, 6, 6, 6, 6, 6, 6],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [3.74, 3.84, 4.0, 4.16, 1.98, 1.9, 1.68],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: false,
+      text: "Resources 2023",
+    },
+  },
+});
+
+var addminBulan = document.getElementById("addminbulan");
+new Chart("addminbulan", {
+  type: "line",
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [
+      {
+        label: "Target",
+        data: [6, 6, 6, 6, 6, 6, 6],
+        backgroundColor: ["rgba(105, 0, 132, .2)"],
+        borderColor: ["rgba(200, 99, 132, .7)"],
+        borderWidth: 2,
+      },
+      {
+        label: "Realisasi",
+        data: [-0.52, -0.37, 0.34, 0.98, 0.53, 1.36, 0.62],
+        backgroundColor: ["rgba(0, 137, 132, .2)"],
+        borderColor: ["rgba(0, 10, 130, .7)"],
+        borderWidth: 2,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    title: {
+      display: false,
+      text: "Add/Min 2023",
     },
   },
 });
@@ -114,11 +207,11 @@ var kpiJuli = document.getElementById("kpijuli");
 new Chart("kpijuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07", "13-07", "14-07", "16-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28, 69.7, 62.5, 68.98, 70.39],
+        data: [57.04, 57.04, 56.82, 66.8, 67.62, 67.59, 59.28, 69.7, 62.5, 68.98, 70.39, 71.02, 71.65, 71.68],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
@@ -138,11 +231,11 @@ var peringkatJuli = document.getElementById("peringkatjuli");
 new Chart("peringkatjuli", {
   type: "line",
   data: {
-    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07"],
+    labels: ["01-07", "02-07", "03-07", "04-07", "05-07", "06-07", "07-07", "09-07", "10-07", "11-07", "12-07", "13-07", "14-07", "16-07"],
     datasets: [
       {
         label: "Realisasi",
-        data: [6, 6, 6, 6, 6, 7, 7, 7, 8, 7, 7],
+        data: [6, 6, 6, 6, 6, 7, 7, 7, 8, 7, 7, 7, 7, 7],
         backgroundColor: ["rgba(0, 137, 132, .2)"],
         borderColor: ["rgba(0, 10, 130, .7)"],
         borderWidth: 2,
