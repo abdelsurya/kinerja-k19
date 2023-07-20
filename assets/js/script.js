@@ -52,7 +52,7 @@ function time(time) {
 
 var aDay = 24 * 60 * 60 * 1000;
 
-const text = time("2023-07-18T13:15:00");
+const text = time("2023-07-20T19:45:00");
 document.querySelector(".update").innerHTML = text;
 
 var outcomeBulan = document.getElementById("outcomebulan");
